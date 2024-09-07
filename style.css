@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+section{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background: #19172e;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    align-items: center;
+}
+
+ .clock div{
+    width:45vw;
+    font-weight: 800;
+    height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+border-radius: 20px;
+border:1px solid rgba(255,255,255,0.1);
+backdrop-filter: blur(20px);
+} 
